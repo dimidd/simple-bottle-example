@@ -5,7 +5,7 @@ To create a simple bottle + heroku project from scratch:
 * Craft your server (can be based on [`server.py`](./server.py)).
 * Add a [`requirements.txt`](./requirements.txt)) file with your project requirements.
   (heroku uses this to detect this is a python project).
-* Add a [`Profile`](./Profile) with a command to launch your server.
+* Add a [`Procfile`](./Procfile) with a command to launch your server.
 * Add a [`runtime.txt`](./runtime.txt) to specify the require python version.
 * `git add` and `git commit` your stuff.
 * If this is the first time you run the heroku toolbelt on your computer, run `heroku login`.
